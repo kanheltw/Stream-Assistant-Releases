@@ -8,6 +8,10 @@
 
 > **Beta pública de prueba.** Algunas funciones dependen de los permisos de Twitch, OBS y las capacidades de voz de Windows. Lee las limitaciones antes de instalar.
 
+## Aviso de Windows Smart App Control
+
+Windows puede bloquear esta beta con Smart App Control porque Stream Assistant es un programa nuevo y todavía no es conocido por Windows. Estoy trabajando para resolverlo y más adelante quiero firmar la aplicación. Si Windows la bloquea, puedes decidir desactivar Smart App Control por tu cuenta para intentar abrirla; es opcional, reduce la protección del equipo y puede ser difícil de revertir. Hazlo solo si confías en el archivo y entiendes el riesgo.
+
 ## Descarga
 
 1. Abre la [página de la Beta 1](https://github.com/kanheltw/Stream-Assistant-Releases/releases/tag/v0.5.0-beta.1).
