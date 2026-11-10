@@ -1,0 +1,20 @@
+Licencia de uso gratuita — Stream Assistant v0.5.0 Beta 1
+
+Copyright (c) 2026 KanhelTW. Todos los derechos reservados, salvo el permiso
+limitado que se concede a continuación.
+
+Se concede a cada persona que descargue esta versión una licencia gratuita,
+mundial, no exclusiva e intransferible para instalar y ejecutar el binario sin
+modificar, incluso para usarlo durante directos monetizados.
+
+No se concede permiso para modificar, descompilar, redistribuir, sublicenciar,
+revender ni crear obras derivadas del programa, excepto en la medida en que la
+legislación aplicable permita expresamente alguna de esas actividades. Para
+compartir la aplicación, dirige a otras personas a la página oficial de Releases.
+
+Los componentes de terceros están sujetos a sus propias licencias, incluidas en
+THIRD-PARTY-LICENSES.zip. Esta licencia no reemplaza ni limita esos permisos.
+
+La beta se proporciona “tal cual”, sin garantías expresas o implícitas. El
+usuario es responsable de revisar permisos de Twitch, configuración de OBS y
+licencias de cualquier Piper o modelo de voz que instale por separado.
