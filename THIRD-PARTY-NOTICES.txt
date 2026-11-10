@@ -1,0 +1,40 @@
+Stream Assistant v0.5.0 Beta 1 — avisos de terceros
+
+Este archivo identifica componentes de terceros incluidos en la distribución.
+Los textos completos de sus licencias se entregan en THIRD-PARTY-LICENSES.zip.
+
+Runtime y dependencias de la aplicación:
+- Python 3.14 — Python Software Foundation License.
+- PyInstaller 6.22.3 — GPL-2.0-or-later con una excepción que permite usar
+  PyInstaller para construir y distribuir programas no libres.
+- Requests 2.34.2 — Apache License 2.0.
+- websocket-client 1.9.2 — Apache License 2.0.
+- Pillow 13.0.0 — MIT-CMU License.
+- keyring 25.7.0 — MIT License.
+- pywin32-ctypes 0.2.3 — BSD 3-Clause License.
+- urllib3 — MIT License.
+- idna — BSD 3-Clause License.
+- certifi — Mozilla Public License 2.0.
+- charset-normalizer — MIT License.
+- jaraco.classes, jaraco.functools, jaraco.context y more-itertools — licencias
+  indicadas en sus avisos incluidos en THIRD-PARTY-LICENSES.zip.
+
+Fuentes incluidas:
+- Inter — SIL Open Font License 1.1.
+- Poppins — SIL Open Font License 1.1.
+- Rajdhani — SIL Open Font License 1.1.
+  Los avisos y textos OFL también se encuentran en assets/fonts/.
+
+Componentes que no se distribuyen en esta beta:
+- Piper y los modelos de voz ONNX. Sus licencias y derechos varían por
+  componente/modelo y no se incluyen en la aplicación. Para usar Piper, cada
+  usuario lo instala por separado; Stream Assistant lo invoca como proceso
+  externo. La compatibilidad de licencia del uso conjunto debe verificarse
+  por separado.
+- System.Speech no se distribuye con la aplicación; cuando está disponible,
+  las voces de Windows se utilizan mediante las bibliotecas del propio sistema.
+- obsws-python y pystray. El cliente OBS de esta beta usa websocket-client.
+
+Cada componente conserva sus propios derechos y condiciones. Este documento no
+concede derechos adicionales sobre componentes de terceros. Las condiciones de
+uso de Stream Assistant se describen por separado en LICENCIA-DE-USO.txt.
