@@ -39,7 +39,7 @@ No hace falta instalar Python para ejecutar la aplicación o usar voces de Windo
 
 ## Licencia y privacidad
 
-Stream Assistant se distribuye bajo una **licencia de uso propietaria y gratuita**; no es software de código abierto. Lee la [licencia de uso](LICENCIA-DE-USO.txt) antes de descargar. El ZIP incluye también las licencias y avisos de terceros, disponibles como [archivo de licencias](https://github.com/kanheltw/Stream-Assistant-Releases/releases/download/v0.5.3/THIRD-PARTY-LICENSES.zip) y [avisos](THIRD-PARTY-NOTICES.txt). Cada componente conserva sus propias condiciones.
+Stream Assistant se distribuye bajo una **licencia de uso propietaria y gratuita**; no es software de código abierto. Lee la [licencia de uso](LICENCIA-DE-USO.txt) antes de descargar. El ZIP incluye también las licencias y avisos de terceros, disponibles en [avisos](THIRD-PARTY-NOTICES.txt). Cada componente conserva sus propias condiciones.
 
 El texto para TTS se procesa localmente. Consulta el README incluido para información de Twitch, credenciales, registros y configuración de OBS. No publiques tokens, contraseñas ni enlaces privados en reportes.
 
