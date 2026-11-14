@@ -4,7 +4,7 @@
 
 <h1 align="center">Stream Assistant</h1>
 <p align="center"><strong>Tu centro de control para directos de Twitch.</strong><br>Chat, alertas, texto a voz local y controles de OBS para Windows.</p>
-<p align="center"><a href="https://github.com/kanheltw/Stream-Assistant-Releases/releases/tag/v0.5.2"><strong>Descargar Beta 1.2</strong></a> | <a href="https://github.com/kanheltw/Stream-Assistant-feedback/issues/new">Reportar un problema o enviar sugerencias</a></p>
+<p align="center"><a href="https://github.com/kanheltw/Stream-Assistant-Releases/releases/tag/v0.5.3"><strong>Descargar Beta 1.3</strong></a> | <a href="https://github.com/kanheltw/Stream-Assistant-feedback/issues/new">Reportar un problema o enviar sugerencias</a></p>
 
 > **Beta pública de prueba.** Algunas funciones dependen de los permisos de Twitch, OBS y las capacidades de voz de Windows. Lee las limitaciones antes de instalar.
 
@@ -14,15 +14,15 @@ Windows puede bloquear esta beta con Smart App Control porque Stream Assistant e
 
 ## Descarga
 
-1. Abre la [página de la Beta 1.2](https://github.com/kanheltw/Stream-Assistant-Releases/releases/tag/v0.5.2).
-2. Descarga `Stream-Assistant-v0.5.0-beta.1.2-Windows.zip` y extrae su contenido.
+1. Abre la [página de la Beta 1.3](https://github.com/kanheltw/Stream-Assistant-Releases/releases/tag/v0.5.3).
+2. Descarga `Stream-Assistant-v0.5.0-beta.1.3-Windows.zip` y extrae su contenido.
 3. Ejecuta `Stream Assistant.exe` en Windows 10/11.
 
 No hace falta instalar Python para ejecutar la aplicación o usar voces de Windows.
 
-## Novedades de Beta 1.2
+## Novedades de Beta 1.3
 
-- Corregido el icono de Stream Assistant en la ventana y la barra de tareas de Windows.
+- La aleta vuelve a mostrarse en la barra lateral.`r`n- El tiburón aparece en la barra de título de Windows.`r`n- El EXE incluye imágenes y fuentes en las rutas correctas.
 
 ## Funciones
 
@@ -39,7 +39,7 @@ No hace falta instalar Python para ejecutar la aplicación o usar voces de Windo
 
 ## Licencia y privacidad
 
-Stream Assistant se distribuye bajo una **licencia de uso propietaria y gratuita**; no es software de código abierto. Lee la [licencia de uso](LICENCIA-DE-USO.txt) antes de descargar. El ZIP incluye también las licencias y avisos de terceros, disponibles como [archivo de licencias](https://github.com/kanheltw/Stream-Assistant-Releases/releases/download/v0.5.2/THIRD-PARTY-LICENSES.zip) y [avisos](THIRD-PARTY-NOTICES.txt). Cada componente conserva sus propias condiciones.
+Stream Assistant se distribuye bajo una **licencia de uso propietaria y gratuita**; no es software de código abierto. Lee la [licencia de uso](LICENCIA-DE-USO.txt) antes de descargar. El ZIP incluye también las licencias y avisos de terceros, disponibles en [avisos](THIRD-PARTY-NOTICES.txt). Cada componente conserva sus propias condiciones.
 
 El texto para TTS se procesa localmente. Consulta el README incluido para información de Twitch, credenciales, registros y configuración de OBS. No publiques tokens, contraseñas ni enlaces privados en reportes.
 
