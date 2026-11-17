@@ -4,45 +4,43 @@
 
 <h1 align="center">Stream Assistant</h1>
 <p align="center"><strong>Tu centro de control para directos de Twitch.</strong><br>Chat, alertas, texto a voz local y controles de OBS para Windows.</p>
-<p align="center"><a href="https://github.com/kanheltw/Stream-Assistant-Releases/releases/tag/v0.5.2"><strong>Descargar Beta 1.2</strong></a> | <a href="https://github.com/kanheltw/Stream-Assistant-feedback/issues/new">Reportar un problema o enviar sugerencias</a></p>
+<p align="center"><a href="https://github.com/kanheltw/Stream-Assistant-Releases/releases/tag/v0.5.8"><strong>Descargar Beta 1.8</strong></a> | <a href="https://github.com/kanheltw/Stream-Assistant-feedback/issues/new">Reportar un problema o proponer mejoras</a></p>
 
-> **Beta pública de prueba.** Algunas funciones dependen de los permisos de Twitch, OBS y las capacidades de voz de Windows. Lee las limitaciones antes de instalar.
+> **Beta pública de prueba.** Algunas funciones dependen de permisos de Twitch, de OBS y de la configuración local.
 
-## Aviso de Windows Smart App Control
+## Instalación
 
-Windows puede bloquear esta beta con Smart App Control porque Stream Assistant es un programa nuevo y todavía no es conocido por Windows. Estoy trabajando para resolverlo y más adelante quiero firmar la aplicación. Si Windows la bloquea, puedes decidir desactivar Smart App Control por tu cuenta para intentar abrirla; es opcional, reduce la protección del equipo y puede ser difícil de revertir. Hazlo solo si confías en el archivo y entiendes el riesgo.
+1. Descarga [Stream-Assistant-v0.5.0-beta.1.8-Windows.zip](https://github.com/kanheltw/Stream-Assistant-Releases/releases/download/v0.5.8/Stream-Assistant-v0.5.0-beta.1.8-Windows.zip).
+2. Extrae el ZIP completo. Se creará la carpeta `Stream Assistant Beta 1.8`.
+3. Abre `Stream Assistant Beta 1.8/Stream Assistant/Stream Assistant.exe`.
 
-## Descarga
+En la carpeta exterior encontrarás `MANUAL-DE-USO.txt` en español, inglés y francés, y la carpeta `Licencias`. No necesitas instalar Python para abrir la aplicación ni para usar las voces de Windows.
 
-1. Abre la [página de la Beta 1.2](https://github.com/kanheltw/Stream-Assistant-Releases/releases/tag/v0.5.2).
-2. Descarga `Stream-Assistant-v0.5.0-beta.1.2-Windows.zip` y extrae su contenido.
-3. Ejecuta `Stream Assistant.exe` en Windows 10/11.
+## Actualizaciones
 
-No hace falta instalar Python para ejecutar la aplicación o usar voces de Windows.
+En **Configuración → Actualizaciones** puedes activar la actualización automática. La app comprobará las versiones al abrirse, descargará la nueva versión y la aplicará al cerrarse. Si prefieres decidir cada vez, desactívala y usa **Buscar actualización ahora**. También puedes descargar el ZIP e instalar la versión manualmente.
 
-## Novedades de Beta 1.2
-
-- Corregido el icono de Stream Assistant en la ventana y la barra de tareas de Windows.
+La Beta 1.8 incluye el archivo `Stream.Assistant.exe` que necesita el actualizador de las betas anteriores. La app verifica su huella SHA-256 publicada por GitHub. Si Windows bloquea la ejecución, consulta el aviso siguiente.
 
 ## Funciones
 
-- Chat en directo y alertas de Twitch en paneles personalizables.
-- Texto a voz local: voces compatibles de Windows o motores Piper instalados por separado.
-- Integración opcional con OBS mediante WebSocket.
+- Chat de Twitch, actividad, alertas y fuentes Navegador independientes para OBS.
+- Paneles personalizables, **Momentos** y resumen del directo.
+- Controles de OBS, reglas por escena y comprobaciones antes de emitir.
+- Cola de alertas, recompensas creadas en Stream Assistant y control LAN opcional.
+- Texto a voz local con voces de Windows; Piper y sus modelos son opcionales y se instalan por separado.
 - Interfaz en español, inglés y francés.
 
-## Voces
+## Aviso de Windows
 
-**Voces de Windows:** en el panel TTS, elige una voz disponible. Usa **Instalar más voces de Microsoft…** para abrir la configuración de Windows; después de instalar una, pulsa **Actualizar lista de voces**. La disponibilidad depende de Windows y de las voces que exponga a aplicaciones de escritorio.
-
-**Piper (opcional):** la aplicación no incluye Piper ni sus modelos. El README incluido en el ZIP explica cómo instalar Piper y añadir modelos. Revisa las licencias y requisitos de cada modelo antes de usarlo o redistribuirlo.
+Stream Assistant todavía no está firmado. Smart App Control puede bloquear un programa nuevo o poco conocido. Si aparece ese bloqueo, no hay una excepción sencilla para ese archivo; consulta la información de Microsoft antes de cambiar la protección de tu equipo. La distribución actual sigue en fase beta.
 
 ## Licencia y privacidad
 
-Stream Assistant se distribuye bajo una **licencia de uso propietaria y gratuita**; no es software de código abierto. Lee la [licencia de uso](LICENCIA-DE-USO.txt) antes de descargar. El ZIP incluye también las licencias y avisos de terceros, disponibles como [archivo de licencias](https://github.com/kanheltw/Stream-Assistant-Releases/releases/download/v0.5.2/THIRD-PARTY-LICENSES.zip) y [avisos](THIRD-PARTY-NOTICES.txt). Cada componente conserva sus propias condiciones.
+Stream Assistant se distribuye bajo una [licencia de uso propietaria y gratuita](LICENCIA-DE-USO.txt); el código fuente de esta versión no es público. El ZIP incluye la licencia y los avisos de terceros. Cada componente conserva sus propias condiciones.
 
-El texto para TTS se procesa localmente. Consulta el README incluido para información de Twitch, credenciales, registros y configuración de OBS. No publiques tokens, contraseñas ni enlaces privados en reportes.
+El texto para TTS se procesa localmente. Los ajustes y registros se guardan en `%LOCALAPPDATA%\Stream Assistant`. No publiques tokens, contraseñas, enlaces LAN privados ni datos personales en reportes.
 
 ## Soporte
 
-Usa [Stream Assistant Feedback](https://github.com/kanheltw/Stream-Assistant-feedback/issues/new) para reportar errores o proponer mejoras. Indica la versión y los pasos para reproducir el problema; elimina antes cualquier dato privado.
+Usa [Stream Assistant Feedback](https://github.com/kanheltw/Stream-Assistant-feedback/issues/new) para reportar errores o proponer mejoras. Indica la versión, los pasos para reproducir el problema y el resultado esperado.
